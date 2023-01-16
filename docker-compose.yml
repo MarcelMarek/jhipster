@@ -1,6 +1,6 @@
 services:
   todo:
-    image: todo
+    image: delishor/vs_todo
     environment:
       - _JAVA_OPTIONS=-Xmx512m -Xms256m
       - SPRING_PROFILES_ACTIVE=prod,api-docs
