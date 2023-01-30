@@ -2,9 +2,9 @@ import { Module } from 'vuex';
 
 export const translationStore: Module<any, any> = {
   state: {
-    currentLanguage: localStorage.getItem('currentLanguage') || 'en',
+    currentLanguage: localStorage.getItem('currentLanguage') || 'de',
     languages: {
-      en: { name: 'English' },
+      de: { name: 'Deutsch' },
       // jhipster-needle-i18n-language-key-pipe - JHipster will add/remove languages in this object
     },
   },

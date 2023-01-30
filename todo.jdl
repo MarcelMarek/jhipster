@@ -1,8 +1,0 @@
-
-entity Todo {
-	todo String required minlength(3),
-    priority Long,
-}
-
-// Set pagination options
-paginate Todo with infinite-scroll

@@ -50,7 +50,7 @@ import { accountStore } from '@/shared/config/store/account-store';
 import { translationStore } from '@/shared/config/store/translation-store';
 
 const dateTimeFormats: DateTimeFormats = {
-  en: {
+  de: {
     short: {
       year: 'numeric',
       month: 'short',

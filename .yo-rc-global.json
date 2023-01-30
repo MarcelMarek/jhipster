@@ -1,8 +1,8 @@
 {
   "generator-jhipster:7.9.3": {
     "promptValues": {
-      "packageName": "org.jhipster.todo",
-      "nativeLanguage": "en"
+      "packageName": "orh.jhipster.todo",
+      "nativeLanguage": "de"
     }
   }
 }
