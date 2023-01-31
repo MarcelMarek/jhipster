@@ -1,7 +1,7 @@
 # This configuration is intended for development purpose, it's **your** responsibility to harden it for production
 version: '3.8'
 services:
-  todo_lab_vs:
+  todo-frontend:
     image: delishor/todo_lab_vs
     environment:
       - _JAVA_OPTIONS=-Xmx512m -Xms256m
@@ -13,7 +13,7 @@ services:
     # If you want to expose these ports outside your dev PC,
     # remove the "127.0.0.1:" prefix
     ports:
-      - 127.0.0.1:8080:8080
+      - 8080:8080
   todo-postgresql:
     image: postgres:14.5
     # volumes:
@@ -25,4 +25,4 @@ services:
     # If you want to expose these ports outside your dev PC,
     # remove the "127.0.0.1:" prefix
     ports:
-      - 127.0.0.1:5432:5432
+      - 5432:5432
